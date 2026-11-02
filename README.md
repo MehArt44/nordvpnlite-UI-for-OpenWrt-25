@@ -203,3 +203,4 @@ sh /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh uninstall --purge
 
 <img width="2154" height="1556" alt="image" src="https://github.com/user-attachments/assets/b763a67d-efe2-4325-9eae-74743cc80617" />
 
+منبع: https://downloads.nordcdn.com/nordvpnlite/
