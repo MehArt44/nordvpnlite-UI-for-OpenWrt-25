@@ -1,1 +1,2 @@
+**English** | [Persian](README.md)
 
