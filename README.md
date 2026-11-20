@@ -25,17 +25,21 @@
 
 ---
 
-## 🚀 نصب سریع
-
-برای نصب، از طریق SSH به روتر خود متصل شوید و دستور زیر را اجرا کنید:
+## 🚀 نصب (Installation)
+برای نصب سریع، از طریق نرم‌افزارهای SSH (مانند MobaXterm یا PuTTY یا Terminal) با دسترسی root به روتر وصل شوید و یکی از دو دستور زیر را اجرا کنید. روی روتر با SSH و دسترسی root اجرا کنید:
 
 ```bash
-wget -O /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh \
-https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite.0.1.0-r1_UI_Final.sh
-
-sh /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh install
+apk update && apk add ca-bundle wget-ssl
+wget -O /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite.0.1.0-r1_UI_Final.sh && sh /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh install
 
 ```
+
+یا با curl:
+```bash
+curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite.0.1.0-r1_UI_Final.sh -o /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh && sh /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh install
+
+```
+
 
 > **⚠️ توجه:** اجرای اسکریپت حتماً نیاز به دسترسی `root` دارد.
 
