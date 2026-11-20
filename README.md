@@ -1,3 +1,7 @@
+**پارسی** | [English](README.en.md)
+
+
+
 # راهنمای جامع NordVPN Lite UI برای OpenWrt 25
 
 [![OpenWrt](https://img.shields.io/badge/OpenWrt-25.12%2B-blue)](https://openwrt.org/)
