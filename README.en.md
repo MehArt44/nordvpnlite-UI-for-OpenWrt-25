@@ -33,13 +33,13 @@ For quick installation, connect to the router via SSH software (such as MobaXter
 
 ```bash
 apk update && apk add ca-bundle wget-ssl
-wget -O /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite.0.1.0-r1_UI_Final.sh && sh /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh install
+wget -O /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_1_0-r1_UI_Final.sh && sh /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh install
 
 ```
 
-Or with curl:
+یا با curl:
 ```bash
-curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite.0.1.0-r1_UI_Final.sh -o /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh && sh /tmp/nordvpnlite.0.1.0-r1_UI_Final.sh install
+curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_1_0-r1_UI_Final.sh -o /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh && sh /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh install
 
 ```
 
