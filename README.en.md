@@ -31,18 +31,17 @@
 ## 🚀 Installation
 For quick installation, connect to the router via SSH software (such as MobaXterm, PuTTY, or Terminal) with root access and run one of the following two commands. Run on the router via SSH with root access:
 
+
+** wget:**
 ```bash
 apk update && apk add ca-bundle wget-ssl
-wget -O /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_1_0-r1_UI_Final.sh && sh /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh install
-
+wget -O /tmp/nordvpnlite_0_2_0-r1_UI.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.2.0-r1/nordvpnlite_0_2_0-r1_UI.sh && sh /tmp/nordvpnlite_0_2_0-r1_UI.sh install
 ```
 
-یا با curl:
+** curl:**
 ```bash
-curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_1_0-r1_UI_Final.sh -o /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh && sh /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh install
-
+curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.2.0-r1/nordvpnlite_0_2_0-r1_UI.sh -o /tmp/nordvpnlite_0_2_0-r1_UI.sh && sh /tmp/nordvpnlite_0_2_0-r1_UI.sh install
 ```
-
 
 > **⚠️ Note:** Running the script requires `root` access.
 
