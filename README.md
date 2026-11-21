@@ -34,13 +34,13 @@
 
 ```bash
 apk update && apk add ca-bundle wget-ssl
-wget -O /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_1_0-r1_UI_Final.sh && sh /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh install
+wget -O /tmp/nordvpnlite_0_2_0-r1_UI.sh https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.2.0-r1/nordvpnlite_0_2_0-r1_UI.sh && sh /tmp/nordvpnlite_0_2_0-r1_UI.sh install
 
 ```
 
 یا با curl:
 ```bash
-curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_1_0-r1_UI_Final.sh -o /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh && sh /tmp/nordvpnlite_0_1_0-r1_UI_Final.sh install
+curl -fsSL https://github.com/MehArt44/nordvpnlite-UI-for-OpenWrt-25/releases/download/0.1.0-r1/nordvpnlite_0_2_0-r1_UI.sh -o /tmp/nordvpnlite_0_2_0-r1_UI.sh && sh /tmp/nordvpnlite_0_2_0-r1_UI.sh install
 
 ```
 
